@@ -98,6 +98,5 @@ jobs:
       with:
         name: aseprite-windows
         path: |
-          build\bin\*.exe
-          build\bin\*.dll
-          build\bin\*.pdb
+          build\bin\aseprite.exe
+          build\bin\data
