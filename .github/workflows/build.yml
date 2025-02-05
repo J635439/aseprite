@@ -92,7 +92,7 @@ jobs:
       shell: bash
       run: |
         cd build && ninja
-    - uses: actions/upload-artifact@4
+    - uses: actions/upload-artifact@3
       with:
         name: aseprite
         path: |
